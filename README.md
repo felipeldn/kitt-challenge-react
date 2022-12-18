@@ -1,4 +1,4 @@
-# Kitt Application
+# Kitt Junior Software Engineer Application
 
 The React app within this directory contains the solution to the problem described below:
 
