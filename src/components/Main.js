@@ -67,8 +67,15 @@ export default class Main extends Component {
 
         return(
             <div class="Form">
-                <p>Please enter the number of minutes you wish to book a room for:</p>
+                <p>
+                    Price per minute: £2<br/>
+                    Price per hour: £22<br/>
+                    Price per day: £60<br/>
+                    Price per week: £105<br/>
+                </p>
 
+                <p>Please enter the number of minutes you wish to book a room for:</p>
+          
                 <Form onSubmit={this.handleSubmit} >
                     <Form.Field onChange={this.handleChange}>
                         <input placeholder="Enter a number"/>
